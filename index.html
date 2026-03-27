@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creaiamo con AI</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+.page { max-width: 480px; margin: 0 auto; padding: 2rem 1rem; }
+.header { text-align: center; margin-bottom: 2rem; }
+.avatar { width: 90px; height: 90px; border-radius: 50%; margin: 0 auto 1rem; overflow: hidden; border: 2px solid #e85d04; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.username { font-size: 18px; font-weight: 600; color: #fff; margin-bottom: 8px; }
+.bio { font-size: 14px; color: #aaa; line-height: 1.6; }
+.section-label { font-size: 11px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; margin-top: 1.5rem; }
+.links { display: flex; flex-direction: column; gap: 10px; }
+.link-btn { display: flex; align-items: center; gap: 14px; padding: 14px 18px; background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 14px; text-decoration: none; transition: background 0.15s, border-color 0.15s; }
+.link-btn:hover { background: #222; border-color: #e85d04; }
+.icon { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; background: #2a2a2a; }
+.link-text { flex: 1; }
+.link-title { font-size: 15px; font-weight: 500; color: #fff; }
+.link-desc { font-size: 12px; color: #777; margin-top: 2px; }
+.arrow { font-size: 16px; color: #444; }
+.highlight { border-color: #e85d04; background: #1a0f00; }
+.highlight .link-title { color: #e85d04; }
+.footer { text-align: center; font-size: 12px; color: #444; padding-top: 1.5rem; margin-top: 1rem; border-top: 1px solid #1a1a1a; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="avatar">
+      <img src="logo.png" alt="Logo" onerror="this.parentElement.innerHTML='🤖'" />
+    </div>
+    <div class="username">@creiamoconai_claude</div>
+    <div class="bio" style="margin-top: 8px;">Automazioni AI per il tuo business · Shopify · Meta Ads · Bot WhatsApp & Telegram · Claude Code<br><br>Costruiamo e studiamo l'intelligenza artificiale 🇮🇹</div>
+  </div>
+
+  <div class="section-label">I nostri prodotti</div>
+  <div class="links">
+    <a class="link-btn" href="https://ordinismart.com" target="_blank">
+      <div class="icon">📦</div>
+      <div class="link-text">
+        <div class="link-title">Ordini Smart</div>
+        <div class="link-desc">Dashboard COD per Shopify · €20/mese</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">🤖</div>
+      <div class="link-text">
+        <div class="link-title">Bot WhatsApp & Telegram</div>
+        <div class="link-desc">Automazione per saloni, ristoranti e negozi</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <div class="section-label">Cosa facciamo</div>
+  <div class="links">
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">🛍️</div>
+      <div class="link-text">
+        <div class="link-title">Shopify & E-commerce</div>
+        <div class="link-desc">Negozi online, COD, Releasit</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">📣</div>
+      <div class="link-text">
+        <div class="link-title">Meta Ads & Campagne</div>
+        <div class="link-desc">Gestione pubblicità Facebook & Instagram</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">⚙️</div>
+      <div class="link-text">
+        <div class="link-title">Automazioni AI</div>
+        <div class="link-desc">Claude Code, n8n, workflow intelligenti</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">💻</div>
+      <div class="link-text">
+        <div class="link-title">Installiamo Claude Code</div>
+        <div class="link-desc">Setup e configurazione per il tuo business</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="link-btn" href="#" target="_blank">
+      <div class="icon">🏪</div>
+      <div class="link-text">
+        <div class="link-title">Hai un negozio fisico?</div>
+        <div class="link-desc">Ti portiamo online · sito, shop e presenza digitale</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <div class="section-label">Contatti</div>
+  <div class="links">
+    <a class="link-btn highlight" href="https://instagram.com/creiamoconai_claude" target="_blank">
+      <div class="icon">✉️</div>
+      <div class="link-text">
+        <div class="link-title">Scrivici in DM su Instagram</div>
+        <div class="link-desc">Risposta rapida · info e preventivi gratuiti</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+
+  <div class="footer">creiamoconai_claude · fatto con Claude AI</div>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 import { Composition, Folder } from "remotion";
 import { AdVerticale } from "./AdVerticale";
+import { BlackFriday } from "./blackfriday/BlackFriday";
 
 // 12.5s di scene - 3 transizioni da 9 frame = 348 frame a 30fps
 export const RemotionRoot: React.FC = () => {
@@ -43,6 +44,23 @@ export const RemotionRoot: React.FC = () => {
           immagineProdotto: "prodotto.svg",
           coloreAccento: "#ff3b30",
           coloreSfondo: "#1a1a2e",
+        }}
+      />
+      <Composition
+        id="BlackFriday-9x16"
+        component={BlackFriday}
+        durationInFrames={466}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          scadenza: "30/11",
+          nomeDispositivo: "Dispositivo LED viso e collo",
+          puntiDispositivo: ["7 modalità", "Luce LED"],
+          titoloSiero: "Siero all'Acido Ialuronico",
+          titoloCrema: "Crema dorata al Collagene",
+          prezzo: "",
+          cta: "ORDINA ORA 👇",
         }}
       />
     </Folder>
